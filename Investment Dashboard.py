@@ -1,4 +1,4 @@
-import streamlit as st
+"""import streamlit as st
 import pandas as pd
 import plotly.express as px
 
@@ -15,4 +15,9 @@ print(df.columns) # Print the column names to verify
 # Change 'Net' to the actual column name:
 fig = px.line(df, x='Amount', y='Security Name', title='Profit and Loss by each Company')  
 fig.show()
-st.plotly_chart(fig)
+st.plotly_chart(fig)"""
+import streamlit as st
+
+st.title("Simple Test App")
+
+st.write("This is a test to see if the app works.")
